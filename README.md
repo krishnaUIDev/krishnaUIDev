@@ -5,7 +5,7 @@ Hi, I'm KrishnaKanth, a passionate self-taught frontEnd web developer from USA.
 
 - 🔭 I’m currently working on my open source project [UI-WebKit](https://github.com/krishnaUIDev/UI-Kit)
 - 🌱 I’m currently learning Flutter, Docker & Deployement stuff.
-- 👯 I’m looking to collaborate with few other organizations [CyberCombat](https://github.com/CyberCombat)
+- 👯 I’m collaborating with few other organizations [CyberCombat](https://github.com/CyberCombat)
 - 💬 Ask me about anything [here](https://github.com/krishnaUIDev/KrishnaUIDev/issues)
 -  Interested Frameworks - _Vuejs_ 💚, _Angular_, _React_, _WebComponents_
 
