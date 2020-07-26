@@ -3,7 +3,7 @@
 Hi, I'm KrishnaKanth, a passionate self-taught frontEnd web developer from USA.
 - I Believe Open Source is for EVERYONE, yes YOU! Join with so we can geek out 🎥 💻
 
-- 🔭 I’m currently working on my project [UI-WebKit](https://github.com/krishnaUIDev/UI-Kit)
+- 🔭 I’m currently working on my open source project [UI-WebKit](https://github.com/krishnaUIDev/UI-Kit)
 - 🌱 I’m currently learning Flutter, Docker & Deployement stuff.
 - 👯 I’m looking to collaborate with few other organizations [CyberCombat](https://github.com/CyberCombat)
 - 💬 Ask me about anything [here](https://github.com/krishnaUIDev/KrishnaUIDev/issues)
@@ -24,4 +24,8 @@ Hi, I'm KrishnaKanth, a passionate self-taught frontEnd web developer from USA.
 
 <a href="https://github.com/krishnaUIDev/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=tru" alt="krishna's github stats" />
+</a>
+
+<a href="https://github.com/krishnaUIDev/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishnaUIDev&layout=compact&theme=radical" alt="krishna's" />
 </a>
