@@ -23,7 +23,7 @@ Hi, I'm KrishnaKanth, a passionate self-taught frontEnd web developer from USA.
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"></code> 
 
 <a href="https://github.com/krishnaUIDev/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=tru" alt="krishna's github stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=true&theme=radical" alt="krishna's github stats" />
 </a>
 
 <a href="https://github.com/krishnaUIDev/github-readme-stats">
