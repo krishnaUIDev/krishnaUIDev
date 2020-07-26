@@ -1,1 +1,12 @@
-[![1000x420](https://user-images.githubusercontent.com/438920/84861219-66036b00-b025-11ea-956b-0b5e009e0d78.gif "KrishnaKanth")](https://github.com/krishnaUIDev)
+## Hello! 💻🕺
+
+-  believe Open Source is for EVERYONE, yes YOU! Join with so we can geek out 🎥 💻
+
+## About Me!
+
+- Interested Frameworks - _Vuejs_ 💚, _Angular_, _React_, _WebComponents_
+- Planning to study - Docker, Flutter, Ionic, etc., 😜😜
+
+---
+![Vuelancer Github Stats](https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=true)
+---
