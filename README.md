@@ -3,7 +3,7 @@
 ---
 
 Hi, I'm KrishnaKanth, a passionate self-taught frontEnd web developer from USA.
-- I Believe Open Source is for EVERYONE, yes YOU! Join with so we can geek out 🎥 💻
+- I Believe Open Source is for EVERYONE, yes with me so we can geek out 🎥 💻
 
 - 🔭 I’m currently working on my open source project [UI-WebKit](https://github.com/krishnaUIDev/UI-Kit)
 - 🌱 I’m currently learning Flutter, Docker & Deployement stuff.
