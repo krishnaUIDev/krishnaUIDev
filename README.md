@@ -46,6 +46,6 @@ This is the place where I opensource stuff and break things :rofl:
  <img align="center" src="https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=true&theme=radical" alt="krishna's github stats" />
 </a>
 <a href="https://github.com/krishnaUIDev">
- <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iampawan&theme=dark&hide_langs_below=1" alt="krishna's" />
+ <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishnaUIDev&theme=dark&hide_langs_below=1" alt="krishna's" />
 </a>
 
