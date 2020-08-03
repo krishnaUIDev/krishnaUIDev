@@ -1,7 +1,5 @@
 ### Hi there,💻🕺 I'm [Krishna!](https://krishnaUIDev.github.io) 👋
 
----
-
 This is the place where I opensource stuff and break things :rofl:
 
 - 🔭 I’m currently working on my open source project [UI-WebKit](https://github.com/krishnaUIDev/UI-Kit)
@@ -48,9 +46,9 @@ This is the place where I opensource stuff and break things :rofl:
 <br/>
 
 <a href="https://github.com/krishnaUIDev">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=true&theme=radical" alt="krishna's github stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishnaUIDev&theme=dark&hide_langs_below=1" />
+</a>
+<a href="https://github.com/krishnaUIDev">
+ <img align="center" src="https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=true&theme=dark&line_height=27" alt="krishna's github stats"/>
 </a>
 
-<a href="https://github.com/krishnaUIDev">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishnaUIDev&layout=compact&theme=radical" alt="krishna's" />
-</a>
