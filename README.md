@@ -48,10 +48,10 @@ This is the place where I opensource stuff and break things :rofl:
 <table align='left'>
   <row>
     <td>
-      <img height='172' src='https://github-readme-stats.vercel.app/api/top-langs/?username=krishnaUIDev&theme=graywhite&layout=compact'>
+      <img height='172' src='https://github-readme-stats.vercel.app/api/top-langs/?username=krishnaUIDev&theme=dark&layout=compact'>
     </td>
     <td>
-      <img height='172' src='https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=true&theme=graywhite'>
+      <img height='172' src='https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=true&theme=dark'>
     </td>
   </row>
 </table>
