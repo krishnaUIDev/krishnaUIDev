@@ -44,12 +44,14 @@ This is the place where I opensource stuff and break things :rofl:
 <img align="left" alt="linux" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png" />
 <img align="left" alt="git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
 <img align="left" alt="html5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
- 
-<br/>
-<a href="https://github.com/krishnaUIDev">
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=true&theme=radical" alt="krishna's github stats" />
-</a>
-<a href="https://github.com/krishnaUIDev">
- <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishnaUIDev&theme=dark&hide_langs_below=1" alt="krishna's" />
-</a>
 
+<table align='left'>
+  <row>
+    <td>
+      <img height='172' src='https://github-readme-stats.vercel.app/api/top-langs/?username=krishnaUIDev&theme=graywhite&layout=compact'>
+    </td>
+    <td>
+      <img height='172' src='https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=true&theme=graywhite'>
+    </td>
+  </row>
+</table>
