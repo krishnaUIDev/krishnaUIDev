@@ -7,6 +7,8 @@ This is the place where I opensource stuff and break things :rofl:
 👉 🌱 I’m currently learning Flutter, Docker & Deployement stuff.
 
 👉 👯 I’m collaborating with few other organizations [CyberCombat](https://github.com/CyberCombat)
+       
+👉 Technical Content writer in Medium [krishnaUIDev](https://krishnauidev.medium.com/)
 
 👉 💬 Ask me about anything [here](https://github.com/krishnaUIDev/KrishnaUIDev/issues)
 
