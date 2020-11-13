@@ -4,6 +4,8 @@ This is the place where I opensource stuff and break things :rofl:
 
 👉 🔭 I’m currently working on my open source project [UI-WebKit](https://github.com/krishnaUIDev/UI-Kit)
 
+👉 Recently launched Extensions for VS Code. [Theme for vs Code](https://marketplace.visualstudio.com/items?itemName=Krishnakanth.cyberdude#review-details) and [ReactDev-snippets](https://marketplace.visualstudio.com/items?itemName=Krishnakanth.reactdev-snippets)
+
 👉 🌱 I’m currently learning Flutter, Docker & Deployement stuff.
 
 👉 👯 I’m collaborating with few other organizations [CyberCombat](https://github.com/CyberCombat)
