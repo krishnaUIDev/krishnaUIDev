@@ -60,4 +60,4 @@ This is the place where I opensource stuff and break things :rofl:
   </row>
 </table>
 
-[![GitHub metrics](https://metrics.lecoq.io/krishnaUIDev?base.metadata=0&languages=1&isocalendar=1&followup=1)](https://github.com/lowlighter/metrics)
+[![GitHub metrics](https://metrics.lecoq.io/krishnaUIDev?base.repositories=0&base.metadata=0&languages=1&isocalendar=1)](https://github.com/lowlighter/metrics)
