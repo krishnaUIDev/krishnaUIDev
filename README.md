@@ -48,9 +48,3 @@ const krishna = {
 </table>
 
 -------
-
-<h4 align="center">Visitor's count :eyes:</h4>
-
-<p align="center"><img src="https://profile-counter.glitch.me/{krishnaUIDev}/count.svg" alt="krishnaUIDev :: Visitor's Count" /></p>
-
-
