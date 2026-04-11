@@ -36,15 +36,4 @@ const krishna = {
 }
 ```
 
-<table align='center'>
-  <row>
-    <td>
-      <img height='172' src='https://github-readme-stats.vercel.app/api/top-langs/?username=krishnaUIDev&theme=dark&layout=compact'>
-    </td>
-    <td>
-      <img height='172' src='https://github-readme-stats.vercel.app/api?username=krishnaUIDev&show_icons=true&theme=dark'>
-    </td>
-  </row>
-</table>
-
 -------
