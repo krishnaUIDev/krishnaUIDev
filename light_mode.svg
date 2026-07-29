@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960px" height="510px" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14px">
+    <style>
+        .bg { fill: #ffffff; stroke: #e1e4e8; stroke-width: 1.5px; rx: 14px; }
+        .title { font-size: 18px; font-weight: bold; fill: #0969da; }
+        .key { fill: #0550ae; font-weight: 600; }
+        .val { fill: #0969da; font-weight: bold; }
+        .add { fill: #1a7f37; font-weight: bold; }
+        .del { fill: #cf222e; font-weight: bold; }
+        .ascii { fill: #57606a; font-size: 11px; white-space: pre; font-family: Consolas, 'Courier New', monospace; }
+    </style>
+    
+    <!-- Background Card -->
+    <rect width="960px" height="510px" class="bg"/>
+    
+    <!-- Left Column: ASCII Portrait -->
+    <text class="ascii">
+<tspan x="25" y="45">%%%%%%%%%%%%%#**+***+=*##*++++==++++****</tspan>
+<tspan x="25" y="62">%%%%%%%%%%*+*#**+***==###++++++++++*+***</tspan>
+<tspan x="25" y="79">%%%%%%%%%#*+*#*++***=+##*+++++++++**++++</tspan>
+<tspan x="25" y="96">%%%%%%%%#****#*+*##+==--=++++++++**+*+++</tspan>
+<tspan x="25" y="113">%%%%%%%#****#**+*##+-===--+**+++*****+++</tspan>
+<tspan x="25" y="130">%%%%%%%#******+*##*==-=:-=***+++**+++++*</tspan>
+<tspan x="25" y="147">%%%%%%##*****#*###+-:-::::+##**++++++*++</tspan>
+<tspan x="25" y="164">@@@@@%#****+*####+=-.....:-+*##**++*++++</tspan>
+<tspan x="25" y="181">*####****+*+****=-==--=====-==****+**+**</tspan>
+<tspan x="25" y="198">+==+===++++*+++---==--=---:--=+******++*</tspan>
+<tspan x="25" y="215">%+##=+=-=-====:.:-==-::::..-==-+********</tspan>
+<tspan x="25" y="232">#+%**#=+++*+=--.-====--::. .:---+*******</tspan>
+<tspan x="25" y="249">#*%+#*+*+**==-::---====-:. :--::=-===+=+</tspan>
+<tspan x="25" y="266">%%%%##*****+==+::.:--:::::--:::-+=*=*+=+</tspan>
+<tspan x="25" y="283">%%%%%%%%%###*++----::::::--:...==**=*+=*</tspan>
+<tspan x="25" y="300">#####%%%%%%%#*+=-::...:--..:-=+*+*+=+=+*</tspan>
+<tspan x="25" y="317">############*++=======++-.=%%%%###***+++</tspan>
+<tspan x="25" y="334">########**++=-:::=++++====*##%%%%%%%%%%%</tspan>
+<tspan x="25" y="351">########++=---==-=+++===+****#######%%%%</tspan>
+<tspan x="25" y="368">########*==--+++==**++=+**##############</tspan>
+    </text>
+    
+    <!-- Right Column: GitHub Statistics -->
+    
+    
+    <text x="470" y="65" class="title">⚡ krishnaUIDev's GitHub Overview</text>
+    <line x1="470" y1="75" x2="940" y2="75" stroke="#e1e4e8" stroke-width="1"/>
+    
+    <text x="470" y="105" class="key">Public Repositories:</text>
+    <text x="670" y="105" class="val">25</text>
+    
+    <text x="470" y="135" class="key">Total Stars Earned:</text>
+    <text x="670" y="135" class="val">⭐ 11</text>
+    
+    <text x="470" y="165" class="key">Total Followers:</text>
+    <text x="670" y="165" class="val">👥 108</text>
+    
+    <text x="470" y="195" class="key">Contributions (Calendar):</text>
+    <text x="670" y="195" class="val">🌱 303</text>
+    
+</svg>
