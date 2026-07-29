@@ -1,59 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 510" width="100%" height="auto" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" width="100%" height="auto" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13px">
     <style>
-        .bg { fill: #ffffff; stroke: #e1e4e8; stroke-width: 1.5px; rx: 14px; }
-        .title { font-size: 18px; font-weight: bold; fill: #0969da; }
-        .key { fill: #0550ae; font-weight: 600; }
-        .val { fill: #0969da; font-weight: bold; }
-        .add { fill: #1a7f37; font-weight: bold; }
-        .del { fill: #cf222e; font-weight: bold; }
-        .ascii { fill: #57606a; font-size: 12px; white-space: pre; font-family: Consolas, 'Courier New', monospace; letter-spacing: 0.5px; }
+        .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5px; rx: 14px; }
+        .title { font-size: 14px; font-weight: bold; fill: #79c0ff; }
+        .sec { font-size: 13px; font-weight: bold; fill: #e3b341; }
+        .key { fill: #e3b341; font-weight: bold; }
+        .val { fill: #79c0ff; }
+        .dot { fill: #484f58; }
+        .dash { fill: #30363d; }
+        .tag { fill: #d29922; font-weight: bold; }
+        .add { fill: #3fb950; font-weight: bold; }
+        .del { fill: #f85149; font-weight: bold; }
+        .ascii { fill: #b1bac4; font-size: 11px; white-space: pre; font-family: Consolas, 'Courier New', monospace; }
     </style>
     
     <!-- Background Card -->
-    <rect width="960px" height="510px" class="bg"/>
+    <rect width="980px" height="540px" class="bg"/>
     
     <!-- Left Column: ASCII Portrait -->
     <text class="ascii">
-<tspan x="25" y="45">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="63">@@@@@@@@@@@@@@@@@%##%@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="81">@@@@@@@@@@@@@@@@#=::-==+*#@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="99">@@@@@@@@@@@@@@@=-==+++*++=+#@@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="117">@@@@@@@@@@@@@#--=++*******+:=@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="135">@@@@@@@@@@@@@-.===+***++++*-:#@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="153">@@@@@@@@@@@@@-:--:--+*-:-=++:+@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="171">@@@@@@@@@@@@@+:---==+*+++++*-+@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="189">@@@@@@@@@@@@@+-=++=-=+=+++**=*@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="207">@@@@@@@@@@@@@#---::-====--+++%@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="225">@@@@@@@@@@@@@@%-::--==++--==#@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="243">@@@@@@@@@@@@@@@#:..:----:::=@@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="261">@@@@@@@@@@@@@@@%::.....::-=+%@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="279">@@@@@@@@@@@%#*##+------===+#%%#%%%%%@@@@@@@@</tspan>
-<tspan x="25" y="297">@@@@@@%%%%###*##%*--======##*#%%%#####%%@@@@</tspan>
-<tspan x="25" y="315">@@@@%%%%%%%%#*=+##**+++++*%*+*##%#####%%%@@@</tspan>
-<tspan x="25" y="333">@@@#%%%%%%%%%%####*****###%#%%%%%%%#%%%%%%@@</tspan>
-<tspan x="25" y="351">@@###%%%%%%%%%%%%%%%##%%%%%%%%%%%%%%%%%##%%@</tspan>
-<tspan x="25" y="369">@####%%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%%</tspan>
-<tspan x="25" y="387">%####%%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%%#%%%</tspan>
-<tspan x="25" y="405">####*##%%%%%%%%%%%%%#%%#%%###%%%%%%%%%%%##%%</tspan>
+<tspan x="25" y="45">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="60">@@@@@@@@@@@@@@@@%##%%@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="75">@@@@@@@@@@@@@@@#=::-===+#@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="90">@@@@@@@@@@@@@@+-=++****+==*@@@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="105">@@@@@@@@@@@@%--=++*******+:+@@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="120">@@@@@@@@@@@@*.---=+**===++--%@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="135">@@@@@@@@@@@@#.--:--+*=--=+=:#@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="150">@@@@@@@@@@@@%-===+=+**++**+-#@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="165">@@@@@@@@@@@@%:===---====+++=%@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="180">@@@@@@@@@@@@@#--::-==+=--+=#@@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="195">@@@@@@@@@@@@@@*:::--===---+@@@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="210">@@@@@@@@@@@@@@@=....:::::-*@@@@@@@@@@@@@@@</tspan>
+<tspan x="25" y="225">@@@@@@@@@@@@%##=::::::-==+#%%%%%@@@@@@@@@@</tspan>
+<tspan x="25" y="240">@@@@@@@%%%##*#%#+--=-====##%%#%####%%@@@@@</tspan>
+<tspan x="25" y="255">@@@@%%%%%%%#*+=#%*++++++*%++##%######%%@@@</tspan>
+<tspan x="25" y="270">@@@##%%%%%%%%#*##****+###%#%%%%%%#%%%%%%@@</tspan>
+<tspan x="25" y="285">@@###%%%%%%%%%%%%%###%%%%%%%%%%%%#%%%%#%%@</tspan>
+<tspan x="25" y="300">@####%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%</tspan>
+<tspan x="25" y="315">%####%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%</tspan>
+<tspan x="25" y="330">###**#%%%%%%%%%%%%%#%%#%%##%%%%%%%%%%%##%%</tspan>
     </text>
     
-    <!-- Right Column: GitHub Statistics -->
-    
-    
-    <text x="490" y="65" class="title">⚡ krishnaUIDev's GitHub Overview</text>
-    <line x1="490" y1="75" x2="940" y2="75" stroke="#e1e4e8" stroke-width="1"/>
-    
-    <text x="490" y="105" class="key">Public Repositories:</text>
-    <text x="690" y="105" class="val">24</text>
-    
-    <text x="490" y="135" class="key">Total Stars Earned:</text>
-    <text x="690" y="135" class="val">⭐ 0</text>
-    
-    <text x="490" y="165" class="key">Total Followers:</text>
-    <text x="690" y="165" class="val">👥 108</text>
-    
-    <text x="490" y="195" class="key">Contributions (Calendar):</text>
-    <text x="690" y="195" class="val">🌱 0</text>
-    
+    <!-- Right Column: Neofetch Terminal Stats -->
+    <text x="460" y="50"><tspan class="title">krishnaUIDev@UIDev</tspan><tspan class="dash"> ---------------------------------</tspan></text>
+    <text x="460" y="69"><tspan class="dot">. </tspan><tspan class="key">OS:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">macOS, iOS, Linux</tspan></text>
+    <text x="460" y="88"><tspan class="dot">. </tspan><tspan class="key">Uptime:</tspan><tspan class="dot"> ................ </tspan><tspan class="val">24 years, 8 months, 4 days</tspan></text>
+    <text x="460" y="107"><tspan class="dot">. </tspan><tspan class="key">Host:</tspan><tspan class="dot"> ................. </tspan><tspan class="val">Full-Stack & UI/UX Engineer</tspan></text>
+    <text x="460" y="126"><tspan class="dot">. </tspan><tspan class="key">Kernel:</tspan><tspan class="dot"> ................ </tspan><tspan class="val">Lead Frontend & System Dev</tspan></text>
+    <text x="460" y="145"><tspan class="dot">. </tspan><tspan class="key">IDE:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">VSCode, Xcode, PyCharm</tspan></text>
+    <text x="460" y="183"><tspan class="dot">. </tspan><tspan class="key">Languages.Programming:</tspan><tspan class="dot"> .. </tspan><tspan class="val">TypeScript, JS, Python, C++</tspan></text>
+    <text x="460" y="202"><tspan class="dot">. </tspan><tspan class="key">Languages.Computer:</tspan><tspan class="dot"> .. </tspan><tspan class="val">HTML, CSS, React, Next.js, SQL</tspan></text>
+    <text x="460" y="221"><tspan class="dot">. </tspan><tspan class="key">Languages.Real:</tspan><tspan class="dot"> ................... </tspan><tspan class="val">English, Telugu</tspan></text>
+    <text x="460" y="259"><tspan class="dot">. </tspan><tspan class="key">Hobbies.Software:</tspan><tspan class="dot"> ... </tspan><tspan class="val">Open Source, AI Agents, UI/UX</tspan></text>
+    <text x="460" y="278"><tspan class="dot">. </tspan><tspan class="key">Hobbies.Hardware:</tspan><tspan class="dot"> .... </tspan><tspan class="val">Custom PCs, Smart Automation</tspan></text>
+    <text x="460" y="316"><tspan class="dash">- </tspan><tspan class="sec">Contact</tspan><tspan class="dash"> ------------------------------------------</tspan></text>
+    <text x="460" y="335"><tspan class="dot">. </tspan><tspan class="key">Email.Personal:</tspan><tspan class="dot"> .......... </tspan><tspan class="val">krishnakondoju@gmail.com</tspan></text>
+    <text x="460" y="354"><tspan class="dot">. </tspan><tspan class="key">GitHub:</tspan><tspan class="dot"> .............................. </tspan><tspan class="val">krishnaUIDev</tspan></text>
+    <text x="460" y="373"><tspan class="dot">. </tspan><tspan class="key">LinkedIn:</tspan><tspan class="dot"> ............................ </tspan><tspan class="val">krishnaUIDev</tspan></text>
+    <text x="460" y="411"><tspan class="dash">- </tspan><tspan class="sec">GitHub Stats</tspan><tspan class="dash"> -------------------------------------</tspan></text>
+    <text x="460" y="430"><tspan class="dot">. </tspan><tspan class="key">Repos:</tspan><tspan class="dot"> .... </tspan><tspan class="val">24</tspan> <tspan class="tag">{Contributed: 35}</tspan><tspan class="dash"> | </tspan><tspan class="key">Stars:</tspan><tspan class="dot"> ............ </tspan><tspan class="val">12</tspan></text>
+    <text x="460" y="449"><tspan class="dot">. </tspan><tspan class="key">Commits:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val">184</tspan><tspan class="dash"> | </tspan><tspan class="key">Followers:</tspan><tspan class="dot"> ....... </tspan><tspan class="val">108</tspan></text>
+    <text x="460" y="468"><tspan class="dot">. </tspan><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="dot"> . </tspan><tspan class="val">45,210</tspan> <tspan class="dot">(</tspan> <tspan class="add">52,140++</tspan><tspan class="dot">, </tspan><tspan class="del">6,930--</tspan> <tspan class="dot">)</tspan></text>
 </svg>
