@@ -1,4 +1,5 @@
 import io
+import os
 import requests
 from PIL import Image
 
@@ -6,10 +7,18 @@ from PIL import Image
 ASCII_CHARS_DARK = ["@", "%", "#", "*", "+", "=", "-", ":", ".", " "]
 ASCII_CHARS_LIGHT = [" ", ".", ":", "-", "=", "+", "*", "#", "%", "@"]
 
-def fetch_user_avatar(username: str):
+def fetch_user_avatar(username: str, local_path: str = "avatar.png"):
     """
-    Fetches user avatar image from GitHub profile.
+    Fetches user avatar image from local file or GitHub profile.
     """
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    full_local = os.path.join(base_dir, local_path)
+    if os.path.exists(full_local):
+        try:
+            return Image.open(full_local)
+        except Exception as e:
+            print(f"Warning: Could not open local avatar {full_local}: {e}")
+
     url = f"https://github.com/{username}.png"
     try:
         response = requests.get(url, timeout=10)
