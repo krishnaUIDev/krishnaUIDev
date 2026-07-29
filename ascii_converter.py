@@ -9,23 +9,23 @@ ASCII_CHARS_LIGHT = [" ", ".", ":", "-", "=", "+", "*", "#", "%", "@"]
 
 def fetch_user_avatar(username: str, local_path: str = "avatar.png"):
     """
-    Fetches user avatar image from local file or GitHub profile.
+    Fetches user avatar image dynamically from GitHub profile (or fallback to local file).
     """
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    full_local = os.path.join(base_dir, local_path)
-    if os.path.exists(full_local):
-        try:
-            return Image.open(full_local)
-        except Exception as e:
-            print(f"Warning: Could not open local avatar {full_local}: {e}")
-
     url = f"https://github.com/{username}.png"
     try:
         response = requests.get(url, timeout=10)
         if response.status_code == 200:
             return Image.open(io.BytesIO(response.content))
     except Exception as e:
-        print(f"Warning: Could not fetch avatar for {username}: {e}")
+        print(f"Notice: Could not fetch live avatar from {url}: {e}")
+
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    full_local = os.path.join(base_dir, local_path)
+    if os.path.exists(full_local):
+        try:
+            return Image.open(full_local)
+        except Exception as e:
+            print(f"Warning: Could not open fallback local avatar {full_local}: {e}")
     return None
 
 def escape_xml(text: str) -> str:

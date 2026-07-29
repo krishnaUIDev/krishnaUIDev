@@ -19,31 +19,31 @@
     
     <!-- Left Column: ASCII Portrait -->
     <text class="ascii">
-<tspan x="20" y="40">                                                      </tspan>
-<tspan x="20" y="57.5">                                                      </tspan>
-<tspan x="20" y="75.0">                    .+%%#*++-:                        </tspan>
-<tspan x="20" y="92.5">                   -*%%%%######*.                     </tspan>
-<tspan x="20" y="110.0">                 .*@#*++=======*#*-                   </tspan>
-<tspan x="20" y="127.5">                :%@**+++===---=-=@@-                  </tspan>
-<tspan x="20" y="145.0">                #@####*+===+++++=#@#.                 </tspan>
-<tspan x="20" y="162.5">                %@#%%%%%#=+#@%#*++@@=                 </tspan>
-<tspan x="20" y="180.0">                =@%%%%#%%+=*##**+=#@-                 </tspan>
-<tspan x="20" y="197.5">                +%#******=-==+====+#=                 </tspan>
-<tspan x="20" y="215.0">                +@#***#%@%#%**#+++*#-                 </tspan>
-<tspan x="20" y="232.5">                .*%#%@@@#**+*#@#++*:                  </tspan>
-<tspan x="20" y="250.0">                  #@@@%%##****%%##*                   </tspan>
-<tspan x="20" y="267.5">                  .#@@@@%%##%@@@@%.                   </tspan>
-<tspan x="20" y="285.0">                   -@@@@@@@@@@@@%#:                   </tspan>
-<tspan x="20" y="302.5">               ..::+@@@@@@@@%%#**=:.....              </tspan>
-<tspan x="20" y="320.0">           ...:-+-:-=%@%%%%##**#=:.  :.:::::..        </tspan>
-<tspan x="20" y="337.5">       ..:::::::=--..:#%#****##+::+=:::.:::::::...    </tspan>
-<tspan x="20" y="355.0">    .::........:-*%=::--+++++++-.-++-::.::::::::...   </tspan>
-<tspan x="20" y="372.5">   .::...........:----==--++-:-:.::...:.:..:.:.:....  </tspan>
-<tspan x="20" y="390.0">  .-:::................::--................:....::... </tspan>
-<tspan x="20" y="407.5"> .--::...................-......................::....</tspan>
-<tspan x="20" y="425.0"> :--::..................:-.........................:..</tspan>
-<tspan x="20" y="442.5">.-:---.:................:-...:...................:::..</tspan>
-<tspan x="20" y="460.0">:-::-+:::...............:-...:..::::.............-:...</tspan>
+<tspan x="20" y="40">                  :::-==---=**-...-=====+*++====-:-:::</tspan>
+<tspan x="20" y="57.5">              -=-.:::=+-::-+*+:...======++======-=--:-</tspan>
+<tspan x="20" y="75.0">             .===:::-==:::-+*=...-========+===---==--=</tspan>
+<tspan x="20" y="92.5">           .::---::-=+-:::=*+::--======+==+==---======</tspan>
+<tspan x="20" y="110.0">          .:-----.:-==::::=***%%%*==-========-==--====</tspan>
+<tspan x="20" y="127.5">         ..-----::--=-:::-+*#+++*%*=---====-------====</tspan>
+<tspan x="20" y="145.0">         :.----::::-=::::=+*%%+%%#*=---===-----====-=-</tspan>
+<tspan x="20" y="162.5">        ..:----:-:-==:..:++*#*####*----=+===--==---===</tspan>
+<tspan x="20" y="180.0">        ..-:--:-=:.-:...-+%@%%@@@@@+.   :----===-=-===</tspan>
+<tspan x="20" y="197.5">        ..-:-:-=-..:..:=+*#@@@@@@%%#*+-:.:---==--===--</tspan>
+<tspan x="20" y="215.0">::....:::---=--=-.:::=*****###**********+-----=---=---</tspan>
+<tspan x="20" y="232.5">**+++++=======--===-*###********###%%#**+=-------:===-</tspan>
+<tspan x="20" y="250.0">.:*-:+*+*#*+*+=====#%@%#***#%#%%%%%@%**#+*=--::-------</tspan>
+<tspan x="20" y="267.5"> :+  +-:+#+*#*++**%%@@%#*+**#%@@@@@@%#**##+-:--=------</tspan>
+<tspan x="20" y="285.0"> =: .+.:++-=*::++###@%********#%@@@@@@%%###+---:::----</tspan>
+<tspan x="20" y="302.5">:+..==.:*::+=::*=**%@####****++*%%@@@%##%%%#*#***++++=</tspan>
+<tspan x="20" y="320.0">   ..:::---=--=+*%#*%@@@@%#####%%%%%%##%##%+++-=*-=**+</tspan>
+<tspan x="20" y="337.5">      ...::::::---:-=%#%%%%%%%%%%%#**#@@@@#=*-:++:-*+=</tspan>
+<tspan x="20" y="355.0">               .:=+**%#**#%%%%%@%##%@@@@@%==+::*=-=*--</tspan>
+<tspan x="20" y="372.5">..:.......      .:-=+*%%@@@@@@@*+@@@@#++=--===+*=+*+--</tspan>
+<tspan x="20" y="390.0">................:--=+*******++++*#@%: ....:::---==+===</tspan>
+<tspan x="20" y="407.5">............::--++*%%%%*+=====+****-..            ....</tspan>
+<tspan x="20" y="425.0">..........:==++**%%%#%%*====+***+===--::.....         </tspan>
+<tspan x="20" y="442.5">......:...:=++*##*+==*#*--==+**++---::::::............</tspan>
+<tspan x="20" y="460.0">::.::.:::::-+***#+===+**----=++==:::::.:::............</tspan>
     </text>
     
     <!-- Right Column: Neofetch Terminal Stats -->
@@ -63,7 +63,7 @@
     <text x="500" y="365"><tspan class="dot">. </tspan><tspan class="key">GitHub:</tspan><tspan class="dot"> .............................. </tspan><tspan class="val">krishnaUIDev</tspan></text>
     <text x="500" y="385"><tspan class="dot">. </tspan><tspan class="key">LinkedIn:</tspan><tspan class="dot"> ............................ </tspan><tspan class="val">krishnaUIDev</tspan></text>
     <text x="500" y="425"><tspan class="dash">- </tspan><tspan class="sec">GitHub Stats</tspan><tspan class="dash"> -------------------------------------</tspan></text>
-    <text x="500" y="445"><tspan class="dot">. </tspan><tspan class="key">Repos:</tspan><tspan class="dot"> .... </tspan><tspan class="val">25</tspan> <tspan class="tag">{Contributed: 35}</tspan><tspan class="dash"> | </tspan><tspan class="key">Stars:</tspan><tspan class="dot"> ............ </tspan><tspan class="val">11</tspan></text>
-    <text x="500" y="465"><tspan class="dot">. </tspan><tspan class="key">Commits:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val">303</tspan><tspan class="dash"> | </tspan><tspan class="key">Followers:</tspan><tspan class="dot"> ....... </tspan><tspan class="val">108</tspan></text>
+    <text x="500" y="445"><tspan class="dot">. </tspan><tspan class="key">Repos:</tspan><tspan class="dot"> .... </tspan><tspan class="val">24</tspan> <tspan class="tag">{Contributed: 35}</tspan><tspan class="dash"> | </tspan><tspan class="key">Stars:</tspan><tspan class="dot"> ............ </tspan><tspan class="val">12</tspan></text>
+    <text x="500" y="465"><tspan class="dot">. </tspan><tspan class="key">Commits:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val">184</tspan><tspan class="dash"> | </tspan><tspan class="key">Followers:</tspan><tspan class="dot"> ....... </tspan><tspan class="val">108</tspan></text>
     <text x="500" y="485"><tspan class="dot">. </tspan><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="dot"> . </tspan><tspan class="val">45,210</tspan> <tspan class="dot">(</tspan> <tspan class="add">52,140++</tspan><tspan class="dot">, </tspan><tspan class="del">6,930--</tspan> <tspan class="dot">)</tspan></text>
 </svg>
