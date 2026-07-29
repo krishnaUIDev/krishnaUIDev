@@ -1,7 +1,4 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishnaUIDev/krishnaUIDev/main/dark_mode.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/krishnaUIDev/krishnaUIDev/main/light_mode.svg">
-    <img alt="Krishna Kondoju's Profile" src="https://raw.githubusercontent.com/krishnaUIDev/krishnaUIDev/main/dark_mode.svg" width="100%">
-  </picture>
+  <img src="./dark_mode.svg#gh-dark-mode-only" alt="Krishna Kondoju Profile" width="100%">
+  <img src="./light_mode.svg#gh-light-mode-only" alt="Krishna Kondoju Profile" width="100%">
 </div>
