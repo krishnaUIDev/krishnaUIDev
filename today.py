@@ -118,69 +118,47 @@ def fetch_github_stats(username: str):
     return stats
 
 
-def make_keyval(key: str, val: str, max_len: int = 56) -> str:
+def make_dot_line(x: int, y: int, key: str, val: str, total_chars: int = 54) -> str:
     """
-    Formats key-value pair with leading dot and dotted leaders matching neofetch layout.
+    Formats key-value pairs with exact dot justification matching Andrew6rant neofetch layout.
     """
-    prefix = f". {key}:"
+    prefix = f". {key}: "
     val_str = str(val)
-    dots_needed = max_len - len(prefix) - len(val_str) - 1
-    if dots_needed < 2:
-        dots_needed = 2
-    dots = '.' * dots_needed
-    return f'<tspan class="dot">. </tspan><tspan class="key">{key}:</tspan><tspan class="dot"> {dots} </tspan><tspan class="val">{val_str}</tspan>'
-
-
-def make_section(title: str, max_len: int = 56) -> str:
-    """
-    Formats section divider line matching neofetch layout.
-    """
-    dashes_needed = max_len - len(title) - 3
-    if dashes_needed < 3:
-        dashes_needed = 3
-    dashes = '-' * dashes_needed
-    return f'<tspan class="dash">- </tspan><tspan class="sec">{title}</tspan><tspan class="dash"> {dashes}</tspan>'
+    dots_count = total_chars - len(prefix) - len(val_str)
+    if dots_count < 2:
+        dots_count = 2
+    dots = '.' * dots_count
+    return f'<tspan x="{x}" y="{y}" class="cc">. </tspan><tspan class="key">{key}</tspan>:<tspan class="cc"> {dots} </tspan><tspan class="value">{val_str}</tspan>'
 
 
 def generate_svg(username: str, stats: dict, dark_mode: bool = True) -> str:
     """
-    Generates dynamic SVG markup formatted as a Neofetch / Fastfetch terminal card.
+    Generates dynamic SVG markup matching Andrew6rant's GitHub profile README template.
     """
-    bg_color = "#0d1117" if dark_mode else "#0d1117"  # Terminal theme stays dark/sleek
-    border_color = "#30363d"
-    key_color = "#e3b341"  # Gold/Yellow
-    sec_color = "#e3b341"  # Gold/Yellow section titles
-    val_color = "#79c0ff"  # Light Blue/Cyan values
-    dot_color = "#484f58"  # Muted Gray dots
-    dash_color = "#30363d"  # Muted Gray dashes
-    tag_color = "#d29922"  # Gold tag highlight
-    add_color = "#3fb950"  # Green
-    del_color = "#f85149"  # Red
-    title_color = "#79c0ff"  # Title highlight
-    ascii_color = "#c9d1d9" if dark_mode else "#b1bac4"
+    bg_color = "#161b22" if dark_mode else "#ffffff"
+    text_color = "#c9d1d9" if dark_mode else "#24292e"
+    key_color = "#ffa657" if dark_mode else "#d97706"
+    val_color = "#a5d6ff" if dark_mode else "#0969da"
+    cc_color = "#616e7f" if dark_mode else "#6e7781"
     
     age_str = calculate_age(BIRTHDAY_STR)
     if not age_str:
-        # Default uptime calculation if birthday not provided in ENV
         age_str = "24 years, 8 months, 4 days"
 
-    # Left column: ASCII Portrait (Larger, prominent portrait)
+    # Left column: ASCII Portrait (x=15, start_y=30, line_height=20)
     ascii_tspans = generate_ascii_svg_tspans(
         username=username,
-        x=20,
-        start_y=40,
-        line_height=17.5,
-        width=54,
+        x=15,
+        start_y=30,
+        line_height=20,
+        width=40,
         dark_mode=dark_mode
     )
     
-    # Right column: Neofetch terminal lines
-    rx = 500
-    start_y = 45
-    line_h = 20
-    max_l = 52
+    # Right column: Specs & Stats
+    rx = 390
+    tot_c = 54
     
-    # Repos and commits numbers
     repos_cnt = stats.get('repos', 24) or 24
     stars_cnt = stats.get('stars', 12) or 12
     followers_cnt = stats.get('followers', 108) or 108
@@ -188,71 +166,60 @@ def generate_svg(username: str, stats: dict, dark_mode: bool = True) -> str:
     loc_add = stats.get('additions', 52140) or 52140
     loc_del = stats.get('deletions', 6930) or 6930
     total_loc = loc_add - loc_del
-    
-    neofetch_rows = [
-        f'<tspan class="title">{username}@UIDev</tspan><tspan class="dash"> {"-" * (max_l - len(username) - 7)}</tspan>',
-        make_keyval("OS", "macOS, iOS, Linux", max_l),
-        make_keyval("Uptime", age_str, max_l),
-        make_keyval("Host", "Full-Stack & UI/UX Engineer", max_l),
-        make_keyval("Kernel", "Lead Frontend & System Dev", max_l),
-        make_keyval("IDE", "VSCode, Xcode, PyCharm", max_l),
-        "",
-        make_keyval("Languages.Programming", "TypeScript, JS, Python, C++", max_l),
-        make_keyval("Languages.Computer", "HTML, CSS, React, Next.js, SQL", max_l),
-        make_keyval("Languages.Real", "English, Telugu", max_l),
-        "",
-        make_keyval("Hobbies.Software", "Open Source, AI Agents, UI/UX", max_l),
-        make_keyval("Hobbies.Hardware", "Custom PCs, Smart Automation", max_l),
-        "",
-        make_section("Contact", max_l),
-        make_keyval("Email.Personal", "krishnakondoju@gmail.com", max_l),
-        make_keyval("GitHub", "krishnaUIDev", max_l),
-        make_keyval("LinkedIn", "krishnaUIDev", max_l),
-        "",
-        make_section("GitHub Stats", max_l),
-        # Repos & Stars line
-        f'<tspan class="dot">. </tspan><tspan class="key">Repos:</tspan><tspan class="dot"> .... </tspan><tspan class="val">{repos_cnt:,}</tspan> <tspan class="tag">{{Contributed: 35}}</tspan><tspan class="dash"> | </tspan><tspan class="key">Stars:</tspan><tspan class="dot"> ............ </tspan><tspan class="val">{stars_cnt:,}</tspan>',
-        # Commits & Followers line
-        f'<tspan class="dot">. </tspan><tspan class="key">Commits:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val">{commits_cnt:,}</tspan><tspan class="dash"> | </tspan><tspan class="key">Followers:</tspan><tspan class="dot"> ....... </tspan><tspan class="val">{followers_cnt:,}</tspan>',
-        # LOC line
-        f'<tspan class="dot">. </tspan><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="dot"> . </tspan><tspan class="val">{total_loc:,}</tspan> <tspan class="dot">(</tspan> <tspan class="add">{loc_add:,}++</tspan><tspan class="dot">, </tspan><tspan class="del">{loc_del:,}--</tspan> <tspan class="dot">)</tspan>'
+
+    # Lines array with explicit (x, y) coordinates
+    lines_xml = [
+        f'<tspan x="{rx}" y="30">{username}</tspan> ---------------------------------------------------',
+        make_dot_line(rx, 50, "OS", "macOS, iOS, Linux", tot_c),
+        make_dot_line(rx, 70, "Uptime", age_str, tot_c),
+        make_dot_line(rx, 90, "Host", "Full-Stack & UI/UX Engineer", tot_c),
+        make_dot_line(rx, 110, "Kernel", "Lead Frontend & System Dev", tot_c),
+        make_dot_line(rx, 130, "IDE", "VSCode, Xcode, PyCharm", tot_c),
+        f'<tspan x="{rx}" y="150" class="cc">. </tspan>',
+        make_dot_line(rx, 170, "Languages.Programming", "TypeScript, JS, Python, C++", tot_c),
+        make_dot_line(rx, 190, "Languages.Computer", "HTML, CSS, React, Next.js, SQL", tot_c),
+        make_dot_line(rx, 210, "Languages.Real", "English, Telugu", tot_c),
+        f'<tspan x="{rx}" y="230" class="cc">. </tspan>',
+        make_dot_line(rx, 250, "Hobbies.Software", "Open Source, AI Agents, UI/UX", tot_c),
+        make_dot_line(rx, 270, "Hobbies.Hardware", "Custom PCs, Smart Automation", tot_c),
+        f'<tspan x="{rx}" y="290" class="cc">. </tspan>',
+        f'<tspan x="{rx}" y="310">- Contact ---------------------------------------------</tspan>',
+        make_dot_line(rx, 330, "Email.Personal", "krishnakondoju@gmail.com", tot_c),
+        make_dot_line(rx, 350, "GitHub", "krishnaUIDev", tot_c),
+        make_dot_line(rx, 370, "LinkedIn", "krishnaUIDev", tot_c),
+        f'<tspan x="{rx}" y="390" class="cc">. </tspan>',
+        f'<tspan x="{rx}" y="410">- GitHub Stats ----------------------------------------</tspan>',
+        f'<tspan x="{rx}" y="430" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">{repos_cnt:,}</tspan> <tspan class="key">{{Contributed: 35}}</tspan><tspan class="cc"> | </tspan><tspan class="key">Stars</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">{stars_cnt:,}</tspan>',
+        f'<tspan x="{rx}" y="450" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">{commits_cnt:,}</tspan><tspan class="cc"> | </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">{followers_cnt:,}</tspan>',
+        f'<tspan x="{rx}" y="470" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> . </tspan><tspan class="value">{total_loc:,}</tspan> <tspan class="cc">(</tspan> <tspan class="addColor">{loc_add:,}++</tspan><tspan class="cc">, </tspan><tspan class="delColor">{loc_del:,}--</tspan> <tspan class="cc">)</tspan>'
     ]
     
-    formatted_text_lines = []
-    cy = start_y
-    for row in neofetch_rows:
-        if row:
-            formatted_text_lines.append(f'<text x="{rx}" y="{cy}">{row}</text>')
-        cy += line_h
+    right_column_xml = "\n".join(lines_xml)
 
-    right_column_xml = "\n    ".join(formatted_text_lines)
-
-    svg_content = f'''<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 550" width="1060" height="550" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13.5px">
-    <style>
-        .bg {{ fill: {bg_color}; stroke: {border_color}; stroke-width: 1.5px; rx: 14px; }}
-        .title {{ font-size: 15px; font-weight: bold; fill: {title_color}; }}
-        .sec {{ font-size: 13.5px; font-weight: bold; fill: {sec_color}; }}
-        .key {{ fill: {key_color}; font-weight: bold; }}
-        .val {{ fill: {val_color}; }}
-        .dot {{ fill: {dot_color}; }}
-        .dash {{ fill: {dash_color}; }}
-        .tag {{ fill: {tag_color}; font-weight: bold; }}
-        .add {{ fill: {add_color}; font-weight: bold; }}
-        .del {{ fill: {del_color}; font-weight: bold; }}
-        .ascii {{ fill: {ascii_color}; font-size: 12px; white-space: pre; font-family: Consolas, 'Courier New', monospace; font-weight: 500; }}
-    </style>
-    
-    <!-- Background Card -->
-    <rect width="1060px" height="550px" class="bg"/>
-    
-    <!-- Left Column: ASCII Portrait -->
-    <text class="ascii">
+    svg_content = f'''<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<style>
+@font-face {{
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}}
+.key {{fill: {key_color};}}
+.value {{fill: {val_color};}}
+.addColor {{fill: #3fb950;}}
+.delColor {{fill: #f85149;}}
+.cc {{fill: {cc_color};}}
+text, tspan {{white-space: pre;}}
+</style>
+<rect width="985px" height="530px" fill="{bg_color}" rx="15"/>
+<text x="15" y="30" fill="{text_color}" class="ascii">
 {ascii_tspans}
-    </text>
-    
-    <!-- Right Column: Neofetch Terminal Stats -->
-    {right_column_xml}
+</text>
+<text x="{rx}" y="30" fill="{text_color}">
+{right_column_xml}
+</text>
 </svg>
 '''
     return svg_content
