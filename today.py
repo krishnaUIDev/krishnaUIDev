@@ -139,13 +139,13 @@ def generate_svg(username: str, stats: dict, dark_mode: bool = True) -> str:
         username=username,
         x=25,
         start_y=45,
-        line_height=17,
-        width=40,
+        line_height=18,
+        width=44,
         dark_mode=dark_mode
     )
     
-    # Right column: Developer Stats (starting x=470)
-    rx = 470
+    # Right column: Developer Stats (starting x=490)
+    rx = 490
     ry = 65
     
     age_line = ""
@@ -183,7 +183,7 @@ def generate_svg(username: str, stats: dict, dark_mode: bool = True) -> str:
         '''
 
     svg_content = f'''<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960px" height="510px" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 510" width="100%" height="auto" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14px">
     <style>
         .bg {{ fill: {bg_color}; stroke: {border_color}; stroke-width: 1.5px; rx: 14px; }}
         .title {{ font-size: 18px; font-weight: bold; fill: {accent_gradient}; }}
@@ -191,7 +191,7 @@ def generate_svg(username: str, stats: dict, dark_mode: bool = True) -> str:
         .val {{ fill: {val_color}; font-weight: bold; }}
         .add {{ fill: {add_color}; font-weight: bold; }}
         .del {{ fill: {del_color}; font-weight: bold; }}
-        .ascii {{ fill: {ascii_color}; font-size: 11px; white-space: pre; font-family: Consolas, 'Courier New', monospace; }}
+        .ascii {{ fill: {ascii_color}; font-size: 12px; white-space: pre; font-family: Consolas, 'Courier New', monospace; letter-spacing: 0.5px; }}
     </style>
     
     <!-- Background Card -->

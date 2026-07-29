@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960px" height="510px" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 510" width="100%" height="auto" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="14px">
     <style>
         .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5px; rx: 14px; }
         .title { font-size: 18px; font-weight: bold; fill: #58a6ff; }
@@ -7,7 +7,7 @@
         .val { fill: #a5d6ff; font-weight: bold; }
         .add { fill: #3fb950; font-weight: bold; }
         .del { fill: #f85149; font-weight: bold; }
-        .ascii { fill: #8b949e; font-size: 11px; white-space: pre; font-family: Consolas, 'Courier New', monospace; }
+        .ascii { fill: #8b949e; font-size: 12px; white-space: pre; font-family: Consolas, 'Courier New', monospace; letter-spacing: 0.5px; }
     </style>
     
     <!-- Background Card -->
@@ -15,43 +15,45 @@
     
     <!-- Left Column: ASCII Portrait -->
     <text class="ascii">
-<tspan x="25" y="45">                                        </tspan>
-<tspan x="25" y="62">               .:-:..                   </tspan>
-<tspan x="25" y="79">              :+***+++=-                </tspan>
-<tspan x="25" y="96">             =*+==-----++-              </tspan>
-<tspan x="25" y="113">            *#++=-------+#:             </tspan>
-<tspan x="25" y="130">            %****+=-+*+==**             </tspan>
-<tspan x="25" y="147">            ******=-=++==+*             </tspan>
-<tspan x="25" y="164">            **+==++====--=+             </tspan>
-<tspan x="25" y="181">            -*+*##*+++*+==:             </tspan>
-<tspan x="25" y="198">             =###*++=+**+=              </tspan>
-<tspan x="25" y="215">              +%%##**###*:              </tspan>
-<tspan x="25" y="232">             .=##%%%##*++:..            </tspan>
-<tspan x="25" y="249">         ..--::=#***++++:....::...      </tspan>
-<tspan x="25" y="266">    .....:::-=:.=++==++-:==::.:::::..   </tspan>
-<tspan x="25" y="283">   .:.......:=-:----=--:.::.:.:.:.....  </tspan>
-<tspan x="25" y="300">  :::............::::...............:.. </tspan>
-<tspan x="25" y="317"> ::::.............:.................:...</tspan>
-<tspan x="25" y="334">.:::..............:.....................</tspan>
-<tspan x="25" y="351">:::--:............:..:..::..........::..</tspan>
+<tspan x="25" y="45">                                            </tspan>
+<tspan x="25" y="63">                 .::.                       </tspan>
+<tspan x="25" y="81">                :+##*++=-:                  </tspan>
+<tspan x="25" y="99">               +*++===-==+=:                </tspan>
+<tspan x="25" y="117">             :**+==-------=#+               </tspan>
+<tspan x="25" y="135">             *%+++=---====-*#:              </tspan>
+<tspan x="25" y="153">             *#**#**=-*#*+==#=              </tspan>
+<tspan x="25" y="171">             =#***++=-=====-*=              </tspan>
+<tspan x="25" y="189">             =*+==+*+=+===--+-              </tspan>
+<tspan x="25" y="207">             :***##*++++**===.              </tspan>
+<tspan x="25" y="225">              .*##**++==**++:               </tspan>
+<tspan x="25" y="243">               :#%%#****###+                </tspan>
+<tspan x="25" y="261">               .##%%%%%##*+=.               </tspan>
+<tspan x="25" y="279">           .:-::=******+++=:..:.....        </tspan>
+<tspan x="25" y="297">      ....:::-::.-**++++++::-:...:::::..    </tspan>
+<tspan x="25" y="315">    ........:-+=::--=====-.-=-::.:::::...   </tspan>
+<tspan x="25" y="333">   :..........::::-----:::.:.......:......  </tspan>
+<tspan x="25" y="351">  :::...............::.................::.. </tspan>
+<tspan x="25" y="369"> ::::...............:.......................</tspan>
+<tspan x="25" y="387">.::::...............:...................:...</tspan>
+<tspan x="25" y="405">::::-::.............:..:..:::...........::..</tspan>
     </text>
     
     <!-- Right Column: GitHub Statistics -->
     
     
-    <text x="470" y="65" class="title">⚡ krishnaUIDev's GitHub Overview</text>
-    <line x1="470" y1="75" x2="940" y2="75" stroke="#30363d" stroke-width="1"/>
+    <text x="490" y="65" class="title">⚡ krishnaUIDev's GitHub Overview</text>
+    <line x1="490" y1="75" x2="940" y2="75" stroke="#30363d" stroke-width="1"/>
     
-    <text x="470" y="105" class="key">Public Repositories:</text>
-    <text x="670" y="105" class="val">24</text>
+    <text x="490" y="105" class="key">Public Repositories:</text>
+    <text x="690" y="105" class="val">24</text>
     
-    <text x="470" y="135" class="key">Total Stars Earned:</text>
-    <text x="670" y="135" class="val">⭐ 0</text>
+    <text x="490" y="135" class="key">Total Stars Earned:</text>
+    <text x="690" y="135" class="val">⭐ 0</text>
     
-    <text x="470" y="165" class="key">Total Followers:</text>
-    <text x="670" y="165" class="val">👥 108</text>
+    <text x="490" y="165" class="key">Total Followers:</text>
+    <text x="690" y="165" class="val">👥 108</text>
     
-    <text x="470" y="195" class="key">Contributions (Calendar):</text>
-    <text x="670" y="195" class="val">🌱 0</text>
+    <text x="490" y="195" class="key">Contributions (Calendar):</text>
+    <text x="690" y="195" class="val">🌱 0</text>
     
 </svg>
