@@ -8,7 +8,7 @@ from dateutil import relativedelta
 from ascii_converter import generate_ascii_svg_tspans
 
 # Configuration from Environment Variables
-USER_NAME = os.environ.get('USER_NAME', 'krishnakondoju')
+USER_NAME = os.environ.get('USER_NAME', 'krishnaUIDev')
 ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN', '')
 BIRTHDAY_STR = os.environ.get('BIRTHDAY', '')  # Format: 'YYYY-MM-DD'
 USE_ASCII_ART = os.environ.get('USE_ASCII_ART', 'true').lower() in ('true', '1', 'yes')

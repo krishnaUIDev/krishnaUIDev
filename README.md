@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishnakondoju/krishnakondoju/main/dark_mode.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/krishnakondoju/krishnakondoju/main/light_mode.svg">
-    <img alt="Krishna Kondoju's GitHub Stats" src="https://raw.githubusercontent.com/krishnakondoju/krishnakondoju/main/dark_mode.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishnaUIDev/krishnaUIDev/main/dark_mode.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/krishnaUIDev/krishnaUIDev/main/light_mode.svg">
+    <img alt="Krishna Kondoju's GitHub Stats" src="https://raw.githubusercontent.com/krishnaUIDev/krishnaUIDev/main/dark_mode.svg" width="100%">
   </picture>
 </div>
 
@@ -20,7 +20,7 @@ This profile README automatically updates daily using **GitHub Actions** and **G
 
 ### 🚀 Setup Instructions for Your Profile
 
-1. Create a public repository named `<your-github-username>` (e.g. `krishnakondoju/krishnakondoju`).
+1. Create a public repository named `<your-github-username>` (e.g. `krishnaUIDev/krishnaUIDev`).
 2. Push this repository code to `main`.
 3. Go to **Settings > Secrets and variables > Actions** in your repository.
 4. Add a **New repository secret**:
