@@ -164,20 +164,20 @@ def generate_svg(username: str, stats: dict, dark_mode: bool = True) -> str:
         # Default uptime calculation if birthday not provided in ENV
         age_str = "24 years, 8 months, 4 days"
 
-    # Left column: ASCII Portrait
+    # Left column: ASCII Portrait (Larger, prominent portrait)
     ascii_tspans = generate_ascii_svg_tspans(
         username=username,
-        x=25,
-        start_y=45,
-        line_height=15,
-        width=42,
+        x=20,
+        start_y=40,
+        line_height=17.5,
+        width=54,
         dark_mode=dark_mode
     )
     
     # Right column: Neofetch terminal lines
-    rx = 460
-    start_y = 50
-    line_h = 19
+    rx = 500
+    start_y = 45
+    line_h = 20
     max_l = 52
     
     # Repos and commits numbers
@@ -228,11 +228,11 @@ def generate_svg(username: str, stats: dict, dark_mode: bool = True) -> str:
     right_column_xml = "\n    ".join(formatted_text_lines)
 
     svg_content = f'''<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" width="100%" height="auto" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 550" width="100%" height="auto" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13.5px">
     <style>
         .bg {{ fill: {bg_color}; stroke: {border_color}; stroke-width: 1.5px; rx: 14px; }}
-        .title {{ font-size: 14px; font-weight: bold; fill: {title_color}; }}
-        .sec {{ font-size: 13px; font-weight: bold; fill: {sec_color}; }}
+        .title {{ font-size: 15px; font-weight: bold; fill: {title_color}; }}
+        .sec {{ font-size: 13.5px; font-weight: bold; fill: {sec_color}; }}
         .key {{ fill: {key_color}; font-weight: bold; }}
         .val {{ fill: {val_color}; }}
         .dot {{ fill: {dot_color}; }}
@@ -240,11 +240,11 @@ def generate_svg(username: str, stats: dict, dark_mode: bool = True) -> str:
         .tag {{ fill: {tag_color}; font-weight: bold; }}
         .add {{ fill: {add_color}; font-weight: bold; }}
         .del {{ fill: {del_color}; font-weight: bold; }}
-        .ascii {{ fill: {ascii_color}; font-size: 11px; white-space: pre; font-family: Consolas, 'Courier New', monospace; }}
+        .ascii {{ fill: {ascii_color}; font-size: 12px; white-space: pre; font-family: Consolas, 'Courier New', monospace; font-weight: 500; }}
     </style>
     
     <!-- Background Card -->
-    <rect width="980px" height="540px" class="bg"/>
+    <rect width="1060px" height="550px" class="bg"/>
     
     <!-- Left Column: ASCII Portrait -->
     <text class="ascii">

@@ -38,21 +38,29 @@ def escape_xml(text: str) -> str:
                 .replace('"', "&quot;")
                 .replace("'", "&apos;"))
 
-def image_to_ascii_lines(image: Image.Image, width: int = 42, dark_mode: bool = True) -> list:
+def image_to_ascii_lines(image: Image.Image, width: int = 58, dark_mode: bool = True) -> list:
     """
-    Converts a PIL image object into a list of ASCII text string lines.
+    Converts a PIL image object into a list of ASCII text string lines with enhanced contrast.
     """
     if image is None:
         return []
     
-    # Adjust for character aspect ratio in monospace fonts (~0.52 height/width ratio)
+    # Enhance contrast to bring out facial features clearly
+    try:
+        from PIL import ImageEnhance
+        enhancer = ImageEnhance.Contrast(image)
+        image = enhancer.enhance(1.45)
+    except Exception:
+        pass
+
+    # Adjust for character aspect ratio in monospace fonts (~0.48 height/width ratio)
     aspect_ratio = image.height / image.width
-    height = int(width * aspect_ratio * 0.50)
-    height = max(15, min(height, 35)) # Keep bounding height reasonable for SVG layout
+    height = int(width * aspect_ratio * 0.48)
+    height = max(20, min(height, 45))  # Allow larger vertical scale for portrait
     
     # Convert image to grayscale
     grayscale_img = image.resize((width, height)).convert("L")
-    pixels = grayscale_img.getdata()
+    pixels = list(grayscale_img.getdata())
     
     chars = ASCII_CHARS_DARK if dark_mode else ASCII_CHARS_LIGHT
     num_chars = len(chars)

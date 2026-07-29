@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" width="100%" height="auto" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 550" width="100%" height="auto" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13.5px">
     <style>
         .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5px; rx: 14px; }
-        .title { font-size: 14px; font-weight: bold; fill: #79c0ff; }
-        .sec { font-size: 13px; font-weight: bold; fill: #e3b341; }
+        .title { font-size: 15px; font-weight: bold; fill: #79c0ff; }
+        .sec { font-size: 13.5px; font-weight: bold; fill: #e3b341; }
         .key { fill: #e3b341; font-weight: bold; }
         .val { fill: #79c0ff; }
         .dot { fill: #484f58; }
@@ -11,54 +11,59 @@
         .tag { fill: #d29922; font-weight: bold; }
         .add { fill: #3fb950; font-weight: bold; }
         .del { fill: #f85149; font-weight: bold; }
-        .ascii { fill: #b1bac4; font-size: 11px; white-space: pre; font-family: Consolas, 'Courier New', monospace; }
+        .ascii { fill: #b1bac4; font-size: 12px; white-space: pre; font-family: Consolas, 'Courier New', monospace; font-weight: 500; }
     </style>
     
     <!-- Background Card -->
-    <rect width="980px" height="540px" class="bg"/>
+    <rect width="1060px" height="550px" class="bg"/>
     
     <!-- Left Column: ASCII Portrait -->
     <text class="ascii">
-<tspan x="25" y="45">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="60">@@@@@@@@@@@@@@@@%##%%@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="75">@@@@@@@@@@@@@@@#=::-===+#@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="90">@@@@@@@@@@@@@@+-=++****+==*@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="105">@@@@@@@@@@@@%--=++*******+:+@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="120">@@@@@@@@@@@@*.---=+**===++--%@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="135">@@@@@@@@@@@@#.--:--+*=--=+=:#@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="150">@@@@@@@@@@@@%-===+=+**++**+-#@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="165">@@@@@@@@@@@@%:===---====+++=%@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="180">@@@@@@@@@@@@@#--::-==+=--+=#@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="195">@@@@@@@@@@@@@@*:::--===---+@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="210">@@@@@@@@@@@@@@@=....:::::-*@@@@@@@@@@@@@@@</tspan>
-<tspan x="25" y="225">@@@@@@@@@@@@%##=::::::-==+#%%%%%@@@@@@@@@@</tspan>
-<tspan x="25" y="240">@@@@@@@%%%##*#%#+--=-====##%%#%####%%@@@@@</tspan>
-<tspan x="25" y="255">@@@@%%%%%%%#*+=#%*++++++*%++##%######%%@@@</tspan>
-<tspan x="25" y="270">@@@##%%%%%%%%#*##****+###%#%%%%%%#%%%%%%@@</tspan>
-<tspan x="25" y="285">@@###%%%%%%%%%%%%%###%%%%%%%%%%%%#%%%%#%%@</tspan>
-<tspan x="25" y="300">@####%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%</tspan>
-<tspan x="25" y="315">%####%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%%%%%</tspan>
-<tspan x="25" y="330">###**#%%%%%%%%%%%%%#%%#%%##%%%%%%%%%%%##%%</tspan>
+<tspan x="20" y="40">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="57.5">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="75.0">@@@@@@@@@@@@@@@@@@@@%=..:-==*#@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="92.5">@@@@@@@@@@@@@@@@@@@*-....::::::-%@@@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="110.0">@@@@@@@@@@@@@@@@@%- :-==+++++++-:-*@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="127.5">@@@@@@@@@@@@@@@@#. --===+++***+*+  *@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="145.0">@@@@@@@@@@@@@@@@: ::::-=+++=====+: :%@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="162.5">@@@@@@@@@@@@@@@@. :.....:+=: .:-==  +@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="180.0">@@@@@@@@@@@@@@@@+ ....:..=+-::--=+: *@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="197.5">@@@@@@@@@@@@@@@@=.:------+*++=++++=:+@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="215.0">@@@@@@@@@@@@@@@@= :---:. .:.--:===-:*@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="232.5">@@@@@@@@@@@@@@@@%-.:.   :--=-: :==-#@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="250.0">@@@@@@@@@@@@@@@@@@:   ..::----..::-@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="267.5">@@@@@@@@@@@@@@@@@@%:    ..::.    .%@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="285.0">@@@@@@@@@@@@@@@@@@@*            .:#@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="302.5">@@@@@@@@@@@@@@@%%##=        ..:--+#%%%%%@@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="320.0">@@@@@@@@@@@%%%#*=*#*+. ....::--:+#%@@#%#####%%@@@@@@@@</tspan>
+<tspan x="20" y="337.5">@@@@@@@%%#######+**%%#:.:----::=##=+###%#######%%%@@@@</tspan>
+<tspan x="20" y="355.0">@@@@%##%%%%%%%%#*-.+##**=======*%*==*##%########%%%@@@</tspan>
+<tspan x="20" y="372.5">@@@%##%%%%%%%%%%%#****++**==*#*#%##%%%#%#%%#%#%#%%%%@@</tspan>
+<tspan x="20" y="390.0">@@%*###%%%%%%%%%%%%%%%%##**%%%%%%%%%%%%%%%%#%%%%##%%%@</tspan>
+<tspan x="20" y="407.5">@%**##%%%%%%%%%%%%%%%%%%%*%%%%%%%%%%%%%%%%%%%%%%##%%%%</tspan>
+<tspan x="20" y="425.0">@#**##%%%%%%%%%%%%%%%%%%#*%%%%%%%%%%%%%%%%%%%%%%%%%#%%</tspan>
+<tspan x="20" y="442.5">%*#***%#%%%%%%%%%%%%%%%%#*%%%#%%%%%%%%%%%%%%%%%%%###%%</tspan>
+<tspan x="20" y="460.0">#*##*=###%%%%%%%%%%%%%%%#*%%%#%%####%%%%%%%%%%%%%*#%%%</tspan>
     </text>
     
     <!-- Right Column: Neofetch Terminal Stats -->
-    <text x="460" y="50"><tspan class="title">krishnaUIDev@UIDev</tspan><tspan class="dash"> ---------------------------------</tspan></text>
-    <text x="460" y="69"><tspan class="dot">. </tspan><tspan class="key">OS:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">macOS, iOS, Linux</tspan></text>
-    <text x="460" y="88"><tspan class="dot">. </tspan><tspan class="key">Uptime:</tspan><tspan class="dot"> ................ </tspan><tspan class="val">24 years, 8 months, 4 days</tspan></text>
-    <text x="460" y="107"><tspan class="dot">. </tspan><tspan class="key">Host:</tspan><tspan class="dot"> ................. </tspan><tspan class="val">Full-Stack & UI/UX Engineer</tspan></text>
-    <text x="460" y="126"><tspan class="dot">. </tspan><tspan class="key">Kernel:</tspan><tspan class="dot"> ................ </tspan><tspan class="val">Lead Frontend & System Dev</tspan></text>
-    <text x="460" y="145"><tspan class="dot">. </tspan><tspan class="key">IDE:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">VSCode, Xcode, PyCharm</tspan></text>
-    <text x="460" y="183"><tspan class="dot">. </tspan><tspan class="key">Languages.Programming:</tspan><tspan class="dot"> .. </tspan><tspan class="val">TypeScript, JS, Python, C++</tspan></text>
-    <text x="460" y="202"><tspan class="dot">. </tspan><tspan class="key">Languages.Computer:</tspan><tspan class="dot"> .. </tspan><tspan class="val">HTML, CSS, React, Next.js, SQL</tspan></text>
-    <text x="460" y="221"><tspan class="dot">. </tspan><tspan class="key">Languages.Real:</tspan><tspan class="dot"> ................... </tspan><tspan class="val">English, Telugu</tspan></text>
-    <text x="460" y="259"><tspan class="dot">. </tspan><tspan class="key">Hobbies.Software:</tspan><tspan class="dot"> ... </tspan><tspan class="val">Open Source, AI Agents, UI/UX</tspan></text>
-    <text x="460" y="278"><tspan class="dot">. </tspan><tspan class="key">Hobbies.Hardware:</tspan><tspan class="dot"> .... </tspan><tspan class="val">Custom PCs, Smart Automation</tspan></text>
-    <text x="460" y="316"><tspan class="dash">- </tspan><tspan class="sec">Contact</tspan><tspan class="dash"> ------------------------------------------</tspan></text>
-    <text x="460" y="335"><tspan class="dot">. </tspan><tspan class="key">Email.Personal:</tspan><tspan class="dot"> .......... </tspan><tspan class="val">krishnakondoju@gmail.com</tspan></text>
-    <text x="460" y="354"><tspan class="dot">. </tspan><tspan class="key">GitHub:</tspan><tspan class="dot"> .............................. </tspan><tspan class="val">krishnaUIDev</tspan></text>
-    <text x="460" y="373"><tspan class="dot">. </tspan><tspan class="key">LinkedIn:</tspan><tspan class="dot"> ............................ </tspan><tspan class="val">krishnaUIDev</tspan></text>
-    <text x="460" y="411"><tspan class="dash">- </tspan><tspan class="sec">GitHub Stats</tspan><tspan class="dash"> -------------------------------------</tspan></text>
-    <text x="460" y="430"><tspan class="dot">. </tspan><tspan class="key">Repos:</tspan><tspan class="dot"> .... </tspan><tspan class="val">24</tspan> <tspan class="tag">{Contributed: 35}</tspan><tspan class="dash"> | </tspan><tspan class="key">Stars:</tspan><tspan class="dot"> ............ </tspan><tspan class="val">12</tspan></text>
-    <text x="460" y="449"><tspan class="dot">. </tspan><tspan class="key">Commits:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val">184</tspan><tspan class="dash"> | </tspan><tspan class="key">Followers:</tspan><tspan class="dot"> ....... </tspan><tspan class="val">108</tspan></text>
-    <text x="460" y="468"><tspan class="dot">. </tspan><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="dot"> . </tspan><tspan class="val">45,210</tspan> <tspan class="dot">(</tspan> <tspan class="add">52,140++</tspan><tspan class="dot">, </tspan><tspan class="del">6,930--</tspan> <tspan class="dot">)</tspan></text>
+    <text x="500" y="45"><tspan class="title">krishnaUIDev@UIDev</tspan><tspan class="dash"> ---------------------------------</tspan></text>
+    <text x="500" y="65"><tspan class="dot">. </tspan><tspan class="key">OS:</tspan><tspan class="dot"> ............................. </tspan><tspan class="val">macOS, iOS, Linux</tspan></text>
+    <text x="500" y="85"><tspan class="dot">. </tspan><tspan class="key">Uptime:</tspan><tspan class="dot"> ................ </tspan><tspan class="val">24 years, 8 months, 4 days</tspan></text>
+    <text x="500" y="105"><tspan class="dot">. </tspan><tspan class="key">Host:</tspan><tspan class="dot"> ................. </tspan><tspan class="val">Full-Stack & UI/UX Engineer</tspan></text>
+    <text x="500" y="125"><tspan class="dot">. </tspan><tspan class="key">Kernel:</tspan><tspan class="dot"> ................ </tspan><tspan class="val">Lead Frontend & System Dev</tspan></text>
+    <text x="500" y="145"><tspan class="dot">. </tspan><tspan class="key">IDE:</tspan><tspan class="dot"> ....................... </tspan><tspan class="val">VSCode, Xcode, PyCharm</tspan></text>
+    <text x="500" y="185"><tspan class="dot">. </tspan><tspan class="key">Languages.Programming:</tspan><tspan class="dot"> .. </tspan><tspan class="val">TypeScript, JS, Python, C++</tspan></text>
+    <text x="500" y="205"><tspan class="dot">. </tspan><tspan class="key">Languages.Computer:</tspan><tspan class="dot"> .. </tspan><tspan class="val">HTML, CSS, React, Next.js, SQL</tspan></text>
+    <text x="500" y="225"><tspan class="dot">. </tspan><tspan class="key">Languages.Real:</tspan><tspan class="dot"> ................... </tspan><tspan class="val">English, Telugu</tspan></text>
+    <text x="500" y="265"><tspan class="dot">. </tspan><tspan class="key">Hobbies.Software:</tspan><tspan class="dot"> ... </tspan><tspan class="val">Open Source, AI Agents, UI/UX</tspan></text>
+    <text x="500" y="285"><tspan class="dot">. </tspan><tspan class="key">Hobbies.Hardware:</tspan><tspan class="dot"> .... </tspan><tspan class="val">Custom PCs, Smart Automation</tspan></text>
+    <text x="500" y="325"><tspan class="dash">- </tspan><tspan class="sec">Contact</tspan><tspan class="dash"> ------------------------------------------</tspan></text>
+    <text x="500" y="345"><tspan class="dot">. </tspan><tspan class="key">Email.Personal:</tspan><tspan class="dot"> .......... </tspan><tspan class="val">krishnakondoju@gmail.com</tspan></text>
+    <text x="500" y="365"><tspan class="dot">. </tspan><tspan class="key">GitHub:</tspan><tspan class="dot"> .............................. </tspan><tspan class="val">krishnaUIDev</tspan></text>
+    <text x="500" y="385"><tspan class="dot">. </tspan><tspan class="key">LinkedIn:</tspan><tspan class="dot"> ............................ </tspan><tspan class="val">krishnaUIDev</tspan></text>
+    <text x="500" y="425"><tspan class="dash">- </tspan><tspan class="sec">GitHub Stats</tspan><tspan class="dash"> -------------------------------------</tspan></text>
+    <text x="500" y="445"><tspan class="dot">. </tspan><tspan class="key">Repos:</tspan><tspan class="dot"> .... </tspan><tspan class="val">24</tspan> <tspan class="tag">{Contributed: 35}</tspan><tspan class="dash"> | </tspan><tspan class="key">Stars:</tspan><tspan class="dot"> ............ </tspan><tspan class="val">12</tspan></text>
+    <text x="500" y="465"><tspan class="dot">. </tspan><tspan class="key">Commits:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val">184</tspan><tspan class="dash"> | </tspan><tspan class="key">Followers:</tspan><tspan class="dot"> ....... </tspan><tspan class="val">108</tspan></text>
+    <text x="500" y="485"><tspan class="dot">. </tspan><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="dot"> . </tspan><tspan class="val">45,210</tspan> <tspan class="dot">(</tspan> <tspan class="add">52,140++</tspan><tspan class="dot">, </tspan><tspan class="del">6,930--</tspan> <tspan class="dot">)</tspan></text>
 </svg>
