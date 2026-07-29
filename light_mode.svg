@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 550" width="100%" height="auto" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13.5px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 550" width="1060" height="550" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13.5px">
     <style>
         .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5px; rx: 14px; }
         .title { font-size: 15px; font-weight: bold; fill: #79c0ff; }
@@ -63,7 +63,7 @@
     <text x="500" y="365"><tspan class="dot">. </tspan><tspan class="key">GitHub:</tspan><tspan class="dot"> .............................. </tspan><tspan class="val">krishnaUIDev</tspan></text>
     <text x="500" y="385"><tspan class="dot">. </tspan><tspan class="key">LinkedIn:</tspan><tspan class="dot"> ............................ </tspan><tspan class="val">krishnaUIDev</tspan></text>
     <text x="500" y="425"><tspan class="dash">- </tspan><tspan class="sec">GitHub Stats</tspan><tspan class="dash"> -------------------------------------</tspan></text>
-    <text x="500" y="445"><tspan class="dot">. </tspan><tspan class="key">Repos:</tspan><tspan class="dot"> .... </tspan><tspan class="val">25</tspan> <tspan class="tag">{Contributed: 35}</tspan><tspan class="dash"> | </tspan><tspan class="key">Stars:</tspan><tspan class="dot"> ............ </tspan><tspan class="val">11</tspan></text>
-    <text x="500" y="465"><tspan class="dot">. </tspan><tspan class="key">Commits:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val">303</tspan><tspan class="dash"> | </tspan><tspan class="key">Followers:</tspan><tspan class="dot"> ....... </tspan><tspan class="val">108</tspan></text>
+    <text x="500" y="445"><tspan class="dot">. </tspan><tspan class="key">Repos:</tspan><tspan class="dot"> .... </tspan><tspan class="val">24</tspan> <tspan class="tag">{Contributed: 35}</tspan><tspan class="dash"> | </tspan><tspan class="key">Stars:</tspan><tspan class="dot"> ............ </tspan><tspan class="val">12</tspan></text>
+    <text x="500" y="465"><tspan class="dot">. </tspan><tspan class="key">Commits:</tspan><tspan class="dot"> .......................... </tspan><tspan class="val">184</tspan><tspan class="dash"> | </tspan><tspan class="key">Followers:</tspan><tspan class="dot"> ....... </tspan><tspan class="val">108</tspan></text>
     <text x="500" y="485"><tspan class="dot">. </tspan><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="dot"> . </tspan><tspan class="val">45,210</tspan> <tspan class="dot">(</tspan> <tspan class="add">52,140++</tspan><tspan class="dot">, </tspan><tspan class="del">6,930--</tspan> <tspan class="dot">)</tspan></text>
 </svg>

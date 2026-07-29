@@ -228,7 +228,7 @@ def generate_svg(username: str, stats: dict, dark_mode: bool = True) -> str:
     right_column_xml = "\n    ".join(formatted_text_lines)
 
     svg_content = f'''<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 550" width="100%" height="auto" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13.5px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 550" width="1060" height="550" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="13.5px">
     <style>
         .bg {{ fill: {bg_color}; stroke: {border_color}; stroke-width: 1.5px; rx: 14px; }}
         .title {{ font-size: 15px; font-weight: bold; fill: {title_color}; }}
