@@ -222,7 +222,7 @@ text, tspan {{white-space: pre;}}
 </text>
 </svg>
 '''
-    return svg_content
+    return svg_content.lstrip()
 
 
 def main():
